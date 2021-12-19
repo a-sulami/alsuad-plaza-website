@@ -424,7 +424,7 @@ h2 {
 .left-container {
   flex: 1;
   height: 480px;
-  /* background-image: url("https://pbs.twimg.com/media/D5OjVBsWAAEzFRe?format=jpg&name=large"); */
+
 }
 
 .right-container {
@@ -442,10 +442,15 @@ h2 {
   height: 480px;
   justify-content: center;
   align-items: flex-start;
-  /* color: #ffffff; */
+
 }
 
 .left-container p {
+  font-size: 0.9rem;
+}
+
+.whatsapp{
+  color: #000;
   font-size: 0.9rem;
 }
 
@@ -474,13 +479,13 @@ textarea {
 
 input:focus,
 textarea:focus {
-  outline: 1px solid #00b4cf;
+  outline: 1px solid #607d8b;
 }
 
 button {
   border-radius: 20px;
-  border: 1px solid #00b4cf;
-  background-color: #00b4cf;
+  border: 1px solid #607d8b;
+  background-color: #607d8b;
   color: #ffffff;
   font-size: 12px;
   font-weight: bold;
