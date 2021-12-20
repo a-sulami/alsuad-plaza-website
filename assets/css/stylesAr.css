@@ -241,7 +241,7 @@ header nav li {
 
 /*Packages Section*/
 
-.packages .grid li {
+/* .packages .grid li {
   padding: 50px;
   flex-basis: 50%;
   text-align: center;
@@ -261,11 +261,11 @@ header nav li {
     flex-basis: 100%;
     padding: 20px;
   }
-}
+} */
 
 /*Testimonials Section*/
 
-.testimonials .quote {
+/* .testimonials .quote {
   font-size: 22px;
   font-weight: 300;
   line-height: 1.5;
@@ -281,11 +281,11 @@ header nav li {
   .testimonials .author {
     font-size: 14px;
   }
-}
+} */
 
 /*Contact Section*/
 
-.contact form {
+/* .contact form {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -310,7 +310,7 @@ header nav li {
     flex-basis: 100%;
     margin: 0 0 20px 0;
   }
-}
+} */
 
 /*Footer Section*/
 
@@ -381,23 +381,6 @@ footer p {
 
 /* Contact Us  */
 
-/* @import url("https://fonts.googleapis.com/css?family=Montserrat:400,800"); */
-/* * {
-  box-sizing: border-box;
-  margin: 0;
-} */
-
-/* body {
-  background: linear-gradient(90deg, #be8cef 0%, rgba(61, 46, 232, 0.83) 100%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  font-family: "Montserrat", sans-serif;
-  font-size: 10px;
-  height: 100vh;
-  margin: -20px 0 50px;
-} */
 
 .container {
   background-color: #ffffff;
