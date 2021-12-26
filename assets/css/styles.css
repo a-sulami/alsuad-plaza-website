@@ -265,7 +265,7 @@ header nav li {
 
 /*Testimonials Section*/
 
-.testimonials .quote {
+/* .testimonials .quote {
   font-size: 22px;
   font-weight: 300;
   line-height: 1.5;
@@ -281,7 +281,7 @@ header nav li {
   .testimonials .author {
     font-size: 14px;
   }
-}
+} */
 
 /*Contact Section*/
 
@@ -305,12 +305,12 @@ header nav li {
   flex: 1;
 }
 
-@media (max-width: 1000px) {
+/* @media (max-width: 1000px) {
   .contact form input {
     flex-basis: 100%;
     margin: 0 0 20px 0;
   }
-}
+} */
 
 /*Footer Section*/
 
