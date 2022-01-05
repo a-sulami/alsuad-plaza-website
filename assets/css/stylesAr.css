@@ -404,11 +404,11 @@ h2 {
   padding: 25px;
 }
 
-.left-container {
+/* .left-container {
   flex: 1;
   height: 480px;
-  /* background-image: url("https://pbs.twimg.com/media/D5OjVBsWAAEzFRe?format=jpg&name=large"); */
-}
+
+} */
 
 .right-container {
   display: flex;
@@ -422,7 +422,7 @@ h2 {
 .left-container {
   display: flex;
   flex: 1;
-  height: 480px;
+  /* height: 480px; */
   justify-content: center;
   align-items: flex-start;
   /* color: #ffffff; */
@@ -435,6 +435,9 @@ h2 {
 .whatsapp{
   color: #000;
   font-size: 0.9rem;
+}
+.whatsapp:hover {
+  opacity: 0.1;
 }
 
 .right-inner-container {
@@ -465,7 +468,7 @@ textarea:focus {
   outline: 1px solid #607d8b;
 }
 
-button {
+.formButton {
   border-radius: 20px;
   border: 1px solid #607d8b;
   background-color: #607d8b;
@@ -480,7 +483,7 @@ button {
   margin: 13px;
 }
 
-button:hover {
+.formButton:hover {
   opacity: 0.7;
 }
 

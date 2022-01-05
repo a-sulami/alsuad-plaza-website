@@ -382,24 +382,6 @@ footer p {
 
 /* Contact Us  */
 
-/* @import url("https://fonts.googleapis.com/css?family=Montserrat:400,800"); */
-/* * {
-  box-sizing: border-box;
-  margin: 0;
-} */
-
-/* body {
-  background: linear-gradient(90deg, #be8cef 0%, rgba(61, 46, 232, 0.83) 100%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  font-family: "Montserrat", sans-serif;
-  font-size: 10px;
-  height: 100vh;
-  margin: -20px 0 50px;
-} */
-
 .container {
   background-color: #ffffff;
   border-radius: 5px;
@@ -422,11 +404,11 @@ h2 {
   padding: 25px;
 }
 
-.left-container {
+/* .left-container {
   flex: 1;
   height: 480px;
 
-}
+} */
 
 .right-container {
   display: flex;
@@ -440,7 +422,7 @@ h2 {
 .left-container {
   display: flex;
   flex: 1;
-  height: 480px;
+  /* height: 480px; */
   justify-content: center;
   align-items: flex-start;
 
@@ -453,6 +435,9 @@ h2 {
 .whatsapp{
   color: #000;
   font-size: 0.9rem;
+}
+.whatsapp:hover {
+  opacity: 0.1;
 }
 
 .right-inner-container {
@@ -483,7 +468,7 @@ textarea:focus {
   outline: 1px solid #607d8b;
 }
 
-button {
+.formButton {
   border-radius: 20px;
   border: 1px solid #607d8b;
   background-color: #607d8b;
@@ -498,7 +483,7 @@ button {
   margin: 13px;
 }
 
-button:hover {
+.formButton:hover {
   opacity: 0.7;
 }
 
@@ -523,6 +508,9 @@ button:hover {
 form p {
   text-align: left;
 }
+
+
+/* ///////////////////////////////// */
 
 #return-to-top {
   position: fixed;
